@@ -1,4 +1,4 @@
-const templator = class {
+const Template = class {
 	constructor(elements, data) {
   		this.rawElement = elements
 		this.element = document.querySelector(elements).innerHTML
